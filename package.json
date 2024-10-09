@@ -8,12 +8,17 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@unhead/vue": "^1.9.16",
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
+    "portfolio_kayal": "file:",
     "vue": "^3.2.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@iconify/vue": "^4.1.2",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
