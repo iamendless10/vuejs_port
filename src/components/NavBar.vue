@@ -1,28 +1,26 @@
 <template>
-  <div class="nav-bar">
+  <div :class="['nav-bar', { 'hidden': isHidden }]">
     <div class="nav-wrapper">
       <!-- Navigation sections on the left -->
       <nav class="nav-sections-left">
         <ul class="nav-links">
-          <li><a href="/section1">Experiences</a></li>
-          <li><a href="/section3">Skills</a></li>
-          <li><a href="/section4">Projects</a></li>
+          <li><a href="#experience-section">Experiences</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#coding">Coding Profiles</a></li>
         </ul>
       </nav>
 
-      <!-- Company Logo in the center -->
-      <a href="/" class="logo-link">
-        <img src="@/assets/ets.png" alt="Logo" class="logo" />
-      </a>
+      <!-- Name Heading in the center -->
+      <div class="name-heading">
+        <h1>KAYAL</h1>
+      </div>
 
       <!-- Navigation sections on the right -->
       <nav class="nav-sections-right">
         <ul class="nav-links">
-          <li><a href="/section4">Projects</a></li>
-          <li><a href="/section5">Certificates</a></li>
-
-          <!-- Connect link with a separate oval container -->
-          <li><a href="/section7" class="connect-btn">Connect</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="https://www.linkedin.com/in/kayalennian" target="_blank" class="connect-btn">Connect</a></li>
         </ul>
       </nav>
     </div>
@@ -32,15 +30,50 @@
 <script>
 export default {
   name: "NavBar",
+  data() {
+    return {
+      isHidden: false,
+      lastScrollPosition: 0,
+    };
+  },
+  methods: {
+    handleScroll() {
+      const currentScrollPosition = window.pageYOffset;
+
+      if (currentScrollPosition > this.lastScrollPosition) {
+        // User is scrolling down, hide the navbar
+        this.isHidden = true;
+      } else {
+        // User is scrolling up, show the navbar
+        this.isHidden = false;
+      }
+
+      // Update the last scroll position
+      this.lastScrollPosition = currentScrollPosition;
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeUnmount() { // Use 'beforeUnmount' instead of 'beforeDestroy'
+    window.removeEventListener("scroll", this.handleScroll);
+  },
 };
 </script>
 
 <style scoped>
-/* General nav-bar styles */
+/* General nav-bar styles with glass effect */
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-bar {
-  background-color: rgba(400, 400, 400, 0.4); /* Translucent background color */
+  background: rgba(255, 255, 255, 0.2); /* Transparent white for glass effect */
+  backdrop-filter: blur(10px); /* Blurs the background behind the navbar */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
   padding: 1px 2px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow for floating effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Softer shadow for a glassy look */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for definition */
   display: flex;
   justify-content: center; /* Center the entire nav-wrapper */
   align-items: center; /* Center the navbar vertically */
@@ -53,9 +86,14 @@ export default {
   height: 80px; /* Fixed height for navbar */
   border-radius: 40px; /* Oval shape */
   transition: all 0.3s ease-in-out; /* Smooth transition for floating effect */
+  transition: top 0.6s ease; /* Smooth transition for showing/hiding */
 }
 
-/* Nav wrapper */
+/* Class to hide the navbar */
+.nav-bar.hidden {
+  top: -100px; /* Move it off the top of the screen */
+}
+
 .nav-wrapper {
   display: flex;
   align-items: center; /* Center items vertically */
@@ -64,17 +102,20 @@ export default {
   padding: 0 20px;
 }
 
-/* Company logo */
-.logo-link {
+/* Name Heading */
+.name-heading {
+  flex: 0.5; /* This helps ensure it's centered */
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0.5; /* This helps ensure it's centered */
-  text-decoration: none; /* Remove underline from the link */
 }
 
-.logo {
-  height: 50px; /* Adjust the size as needed */
+.name-heading h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #333333; /* Slight black color */
+  margin: 0;
 }
 
 /* Navigation sections on both sides */
@@ -98,42 +139,40 @@ export default {
   margin-right: 20px;
 }
 
+/* Default styles for navigation links */
 .nav-links a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: #758694; /* Default heading color */
-  transition: color 0.6s ease; /* Smooth color transition */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and transform transition */
 }
 
+/* Hover effect for the links */
 .nav-links a:hover {
-  color: #1f1f39;  
+  color: #1f1f39; /* Change color on hover */
+  transform: scale(1.1); /* Slightly scale up the text on hover */
 }
 
-/* Oval container for Connect link */
-.connect-link {
-  background-color: #1f1f39; /* Slight black color */
-  color: white; /* Set text color to white */
-  padding: 10px 20px;
-  border-radius: 30px; /* Oval shape */
-  transition: background-color 0.7s ease, color 0.7s ease;
-}
-
+/* Styling for the Connect button */
 .connect-btn {
-    background-color: #000; /* Black button background */
-    color: #fff; /* White text */
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    border-radius: 30px; /* Rounded button */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .connect-btn:hover {
-    background-color: #333; /* Darker shade on hover */
-  }
+  background-color: #000; /* Black button background */
+  color: white !important; /* Ensure text color is white */
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 30px; /* Rounded button */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the Connect button */
+.connect-btn:hover {
+  background-color: #333; /* Darker shade on hover */
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
 </style>

@@ -1,4 +1,5 @@
 <template>
+  <section id="projects">
     <div class="text-container">
       <h1>Projects.</h1>
       <div class="para-container">
@@ -7,6 +8,8 @@
       </div>
      
     </div>
+  </section>
+    
   </template>
   
   <script>

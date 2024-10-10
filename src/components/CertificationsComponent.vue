@@ -1,5 +1,6 @@
 <template>
-  <div class="certifications-container">
+  <section id="certificates">
+    <div class="certifications-container">
     <h1 class="certifications-heading">Certifications</h1>
     <p class="certifications-description">List of certifications and their details</p>
     
@@ -28,6 +29,8 @@
       </tbody>
     </table>
   </div>
+  </section>
+ 
 </template>
 
 <script>

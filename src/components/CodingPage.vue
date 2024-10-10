@@ -1,5 +1,6 @@
 <template>
-  <div class="text-container">
+  <section id="coding">
+    <div class="text-container">
     <h1>Overview.</h1>
     <div class="para-container">
       <p>
@@ -7,6 +8,8 @@
     </div>
    
   </div>
+  </section>
+  
 </template>
 
 <script>

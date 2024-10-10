@@ -1,5 +1,7 @@
 <template>
-  <div class="full-image-container">
+
+  <section id="project">
+    <div class="full-image-container">
     <!-- First Image Container -->
     <div class="image-container">
       <img :src="mainImage.src" :alt="mainImage.alt" class="blur-image" />
@@ -167,6 +169,8 @@
     </div>
 
   </div>
+  </section>
+  
 </template>
 
 <script>

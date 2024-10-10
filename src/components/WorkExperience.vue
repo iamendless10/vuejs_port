@@ -1,5 +1,6 @@
 <template>
-  <div class="timeline-container">
+  <section id="experience-section">
+    <div class="timeline-container">
     <p class="intro-paragraph">What I've done so far</p>
     <h1 class="timeline-heading">Work Experience</h1>
     <div class="timeline">
@@ -28,6 +29,8 @@
          class="resume-btn" target="_blank">My Resume</a>
     </div>
   </div>
+  </section>
+  
 </template>
 
   
@@ -93,6 +96,10 @@
   
   <style scoped>
   /* Timeline container */
+  html {
+  scroll-behavior: smooth;
+}
+
   .timeline-container {
     display: flex;
     flex-direction: column;

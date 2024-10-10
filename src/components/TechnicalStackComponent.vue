@@ -1,5 +1,6 @@
 <template>
-  <div class="split-page">
+  <section id="skills">
+    <div class="split-page">
     <!-- Left Side -->
     <div class="left-side">
       <div class="content">
@@ -36,6 +37,8 @@
       </div>
     </div>
   </div>
+  </section>
+  
 </template>
 
 <script>

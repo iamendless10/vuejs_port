@@ -1,5 +1,7 @@
 <template>
-  <div class="main-container">
+
+  <section id="codin">
+    <div class="main-container">
     <!-- First Profile -->
     <div class="small-container fade-in-up" ref="container1" @mouseover="onHover" @mouseleave="onLeave">
       <!-- Logo at the top -->
@@ -56,6 +58,11 @@
       <button class="view-profile-btn" @click="goToLink('https://www.naukri.com/code360/profile/Kayal_Ennian')">View Profile</button>
     </div>
   </div>
+  </section>
+
+
+
+  
 </template>
 
 <script>
