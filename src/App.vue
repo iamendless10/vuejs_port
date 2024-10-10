@@ -15,6 +15,7 @@
     <AchievementsHeading/>
     <AchievementsContainer/>
     <GalleryOfAccomplishments/>
+    <ContactUs/>
   
     
   </div>
@@ -38,6 +39,7 @@ import CertificationsComponent from './components/CertificationsComponent.vue';
 import AchievementsContainer from './components/AchievementsContainer.vue';
 import AchievementsHeading from './components/AchievementsHeading.vue';
 import GalleryOfAccomplishments from './components/GalleryOfAccomplishments.vue';
+import ContactUs from './components/ContactUs.vue';
 
 
 export default {
@@ -57,7 +59,8 @@ export default {
     CertificationsComponent,
     AchievementsContainer,
     AchievementsHeading,
-    GalleryOfAccomplishments
+    GalleryOfAccomplishments,
+    ContactUs
   
   }
 }
