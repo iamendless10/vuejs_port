@@ -20,16 +20,16 @@
         <button type="submit" class="submit-button">Send Message</button>
       </form>
       <div class="social-icons">
-        <a href="#" class="icon" @mouseover="animateIcon" @mouseleave="resetIcon">
+        <a href="https://github.com/iamendless10" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
           <img src="@/assets/github.png" alt="Facebook" />
         </a>
-        <a href="#" class="icon" @mouseover="animateIcon" @mouseleave="resetIcon">
+        <a href="https://www.twitter.com/kayalennian" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
           <img src="@/assets/twitter.png" alt="Twitter" />
         </a>
-        <a href="#" class="icon" @mouseover="animateIcon" @mouseleave="resetIcon">
+        <a href="https://www.linkedin.com/in/kayalennian" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
           <img src="@/assets/linkedin.png" alt="LinkedIn" />
         </a>
-        <a href="#" class="icon" @mouseover="animateIcon" @mouseleave="resetIcon">
+        <a href="https://www.instagram.com/iam_ennian_" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
           <img src="@/assets/instagram.png" alt="Instagram" />
         </a>
       </div>
@@ -47,24 +47,29 @@
       };
     },
     methods: {
-      handleSubmit() {
-        // Handle form submission logic (e.g., API call)
-        console.log("Form submitted:", { name: this.name, email: this.email, message: this.message });
-        // Reset form fields
-        this.name = "";
-        this.email = "";
-        this.message = "";
-      },
-      animateIcon(event) {
-        const icon = event.target;
-        icon.style.transform = "scale(1.2)";
-        icon.style.transition = "transform 0.3s ease";
-      },
-      resetIcon(event) {
-        const icon = event.target;
-        icon.style.transform = "scale(1)";
-      },
-    },
+  handleSubmit() {
+    // Handle form submission logic (e.g., API call)
+    console.log("Form submitted:", { name: this.name, email: this.email, message: this.message });
+    // Reset form fields
+    this.name = "";
+    this.email = "";
+    this.message = "";
+  },
+  animateIcon(event) {
+    const icon = event.currentTarget.querySelector('img'); // Use currentTarget to access the correct anchor element
+    if (icon) { // Check if the icon is not null
+      icon.style.transform = "scale(1.2)";
+      icon.style.transition = "transform 0.3s ease";
+    }
+  },
+  resetIcon(event) {
+    const icon = event.currentTarget.querySelector('img'); // Use currentTarget to access the correct anchor element
+    if (icon) { // Check if the icon is not null
+      icon.style.transform = "scale(1)";
+    }
+  },
+},
+
   };
   </script>
   
@@ -146,18 +151,13 @@
   }
   
   .icon {
-    font-size: 24px;
-    color: #333;
     transition: transform 0.3s ease;
   }
   
   .icon img {
     width: 24px; /* Adjusted icon size */
     height: 24px; /* Ensure consistent size */
-  }
-  
-  .icon:hover {
-    transform: scale(1.2);
+    transition: transform 0.3s ease; /* Ensure smooth transition on hover */
   }
   </style>
   

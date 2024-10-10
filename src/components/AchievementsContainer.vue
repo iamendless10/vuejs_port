@@ -114,14 +114,7 @@ export default {
           description: "Pioneered a machine learning model that received recognition for its impact on healthcare.",
           githubLink: "https://github.com/your-repo-url-9", // Replace with your actual GitHub link
         },
-        {
-          icon: require("../assets/help.png"),
-          title: "Conducted DSA Workshop",
-          subheading1: "For 2nd-Year Students",
-          subheading2: "Skill Development",
-          description: "Organized and conducted a workshop to enhance data structures and algorithms skills among students.",
-          githubLink: "https://github.com/your-repo-url-10", // Replace with your actual GitHub link
-        },
+        
       ],
     };
   },
@@ -167,7 +160,7 @@ export default {
 /* Container Card Styles */
 /* Container Card Styles */
 .container-card {
-  background: linear-gradient(135deg, #333333, #333333); /* Dark gradient */
+  background: linear-gradient(135deg, #686d76, #333333); /* Dark gradient */
   color: white; /* White text for contrast */
   width: 350px;
   height: 250px;
