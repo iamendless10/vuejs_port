@@ -36,16 +36,21 @@ export default {
   data() {
     return {
       certifications: [
-        { domain: "UI/UX Design", certification: "Figma", issuingOrganization: "Guvi Geek Networks, IITM Research Park", issueDate: "Jan 2024", credentialUrl: "https://example.com/figma" },
-        { domain: "Cloud Computing", certification: "Cloud Computing", issuingOrganization: "NPTEL", issueDate: "Nov 2023", credentialUrl: "https://example.com/cloud" },
-        { domain: "AI", certification: "AI For India 2.0", issuingOrganization: "GUVI Geek Networks, IITM Research Park", issueDate: "Aug 2023", credentialUrl: "https://example.com/ai" },
-        { domain: "Chatbot Development", certification: "Developing Chatbots with Azure", issuingOrganization: "LinkedIn", issueDate: "Feb 2023", credentialUrl: "https://example.com/chatbot" },
-        { domain: "Cloud Computing", certification: "Google Cloud Certified - Professional Cloud Architect", issuingOrganization: "Google", issueDate: "Mar 2024", credentialUrl: "https://cloud.google.com/certification/cloud-architect" },
-        { domain: "Machine Learning", certification: "Microsoft Certified: Azure Data Scientist Associate", issuingOrganization: "Microsoft", issueDate: "Dec 2023", credentialUrl: "https://learn.microsoft.com/en-us/certifications/azure-data-scientist-associate/" },
-        { domain: "Web Development", certification: "AWS Certified Solutions Architect - Associate", issuingOrganization: "Amazon Web Services", issueDate: "Jan 2023", credentialUrl: "https://aws.amazon.com/certification/certified-solutions-architect-associate/" },
-        { domain: "Data Science", certification: "IBM Data Science Professional Certificate", issuingOrganization: "IBM", issueDate: "Sep 2022", credentialUrl: "https://www.coursera.org/professional-certificates/ibm-data-science" },
-        { domain: "Cybersecurity", certification: "CompTIA Security+", issuingOrganization: "CompTIA", issueDate: "May 2024", credentialUrl: "https://www.comptia.org/certifications/security" },
+        { domain: "Python", certification: "Advanced Diploma in python programming ADPP", issuingOrganization: "CSC", issueDate: "Mar 2022", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+
+        { domain: "HTML & CSS", certification: "Webdeveloper Bootcamp", issuingOrganization: "Udemy", issueDate: "Oct 2022", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "RestAPI", certification: "BackEnd RestAPI Mastery", issuingOrganization: "Udemy", issueDate: "Sep 2023", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "Machine Learning", certification: "Supervised Machine Learning", issuingOrganization: "Stanford University", issueDate: "Aug 2023", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "Algorithms", certification: "Deep Dive into Algorithm Design Paradigms", issuingOrganization: "Udemy", issueDate: "Feb 2023", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "Django", certification: "Python and Django Full Stack Web Developer Bootcamp", issuingOrganization: "Udemy", issueDate: "Mar 2024", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "Java", certification: "Core Java mastery", issuingOrganization: "Scaler", issueDate: "Dec 2023", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "Web Development", certification: "React, NodeJS, Express & MongoDB - The MERN Fullstack Guide", issuingOrganization: "Udemy", issueDate: "Mar 2024", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "Reactjs", certification: "React JS Masterclass", issuingOrganization: "Udemy", issueDate: "Apr 2024", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "Android Application", certification: "The Complete Flutter and Dart Guide", issuingOrganization: "Udemy", issueDate: "Apr 2024", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
         // Add more certifications here...
+        { domain: "Data Structures", certification: "Mastering Data Structures & Algorithms using C and C++", issuingOrganization: "Udemy", issueDate: "May 2024", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+        { domain: "DSA", certification: "C++ Data Structures & Algorithms", issuingOrganization: "Udemy", issueDate: "Apr 2024", credentialUrl: "https://drive.google.com/drive/u/1/folders/1Gi7QVixGaIcKeWh6s6jcOt9ngGIccbjI" },
+
       ]
     };
   }
