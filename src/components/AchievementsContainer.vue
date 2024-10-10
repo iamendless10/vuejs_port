@@ -160,10 +160,10 @@ export default {
 /* Container Card Styles */
 /* Container Card Styles */
 .container-card {
-  background: linear-gradient(135deg, #686d76, #787a91); /* Dark gradient */
-  color: white; /* White text for contrast */
-  width: 350px;
-  height: 250px;
+  background: linear-gradient(135deg, #bbbbbb, #c6ced3); /* Dark gradient */
+  color: black; /* White text for contrast */
+  width: 250px;
+  height: 200px;
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -206,7 +206,7 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #f0f0f0; /* Light gray for visibility */
+  color: #444444; /* Light gray for visibility */
   margin: 5px 0; /* Maintain margins for readability */
 }
 
@@ -215,7 +215,7 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #d0d0d0; /* Medium gray for description */
+  color: grey; /* Medium gray for description */
   margin-top: 10px; /* Keep some space above the description */
   word-spacing: 2px;
 }
@@ -223,7 +223,7 @@ export default {
 /* View Project Button */
 .view-project-btn {
   position: absolute;
-  bottom: -45px; /* Position below the card */
+  bottom: -95px; /* Position below the card */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Adjust to center */
   padding: 10px 20px;
@@ -235,11 +235,13 @@ export default {
   cursor: pointer;
   transition: bottom 0.3s ease, transform 0.3s ease; /* Animate button appearance */
   border: none;
+  width: 1000px;
+  height: 40px;
 }
 
 /* Show button on card hover */
 .container-card:hover .view-project-btn {
-  bottom: 45px; /* Move button into view */
+  bottom: 3px; /* Move button into view */
   transform: translateX(-50%) scale(1.1); /* Slightly increase button size */
 }
 

@@ -219,8 +219,8 @@ export default {
 .image-container {
   position: relative;
   max-width: 45%; /* Adjust width to fit two per row */
-  width: 90%;
-  height: 400px;
+  width: 30%;
+  height: 300px;
   border-radius: 15px;
   overflow: hidden; /* Ensures the border-radius applies to children */
   display: flex;

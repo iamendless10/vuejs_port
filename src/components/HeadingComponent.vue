@@ -3,7 +3,7 @@
       <h1>Projects.</h1>
       <div class="para-container">
         <p>
-          As a dedicated and passionate coder, I have consistently demonstrated strong problem-solving skills through platforms like CodeChef, achieving a 3-star rating. My expertise spans various algorithms, data structures, and competitive programming challenges, showcasing my commitment to continuous learning and improvement in coding excellence.    </p>
+          Explore some of my notable projects, showcasing innovations in technology and leadership. These initiatives reflect my commitment to harnessing advanced techniques for impactful solutions in various fields. Join me in discovering how I’ve combined creativity and technical expertise to drive positive change. </p>
       </div>
      
     </div>
