@@ -12,6 +12,8 @@
     "@unhead/vue": "^1.9.16",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
+    "embla-carousel-autoplay": "^8.3.0",
+    "embla-carousel-react": "^8.3.0",
     "portfolio_kayal": "file:",
     "vue": "^3.2.13"
   },

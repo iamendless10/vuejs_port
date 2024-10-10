@@ -14,6 +14,7 @@
     <CertificationsComponent/>
     <AchievementsHeading/>
     <AchievementsContainer/>
+    <GalleryOfAccomplishments/>
   
     
   </div>
@@ -36,7 +37,7 @@ import HeadingComponent from './components/HeadingComponent.vue';
 import CertificationsComponent from './components/CertificationsComponent.vue';
 import AchievementsContainer from './components/AchievementsContainer.vue';
 import AchievementsHeading from './components/AchievementsHeading.vue';
-
+import GalleryOfAccomplishments from './components/GalleryOfAccomplishments.vue';
 
 
 export default {
@@ -55,7 +56,8 @@ export default {
     HeadingComponent,
     CertificationsComponent,
     AchievementsContainer,
-    AchievementsHeading
+    AchievementsHeading,
+    GalleryOfAccomplishments
   
   }
 }
