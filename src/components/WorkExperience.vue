@@ -1,33 +1,35 @@
 <template>
-    <div class="timeline-container">
-      <p class="intro-paragraph">What I've done so far</p>
-      <h1 class="timeline-heading">Work Experience</h1>
-      <div class="timeline">
-        <div
-          class="timeline-item"
-          v-for="(item, index) in experiences"
-          :key="index"
-          :class="[
-            'timeline-item',
-            { 'align-left': index % 2 === 0, 'align-right': index % 2 !== 0, 'visible': item.visible }
-          ]"
-          ref="timelineItems"
-        >
-          <div class="timeline-content">
-            <div class="timeline-icon">
-              <img :src="item.icon" alt="icon" />
-            </div>
-            <h2 class="position">{{ item.position }}</h2>
-            <p class="company">{{ item.company }}</p>
-            <span class="date">{{ item.date }}</span>
+  <div class="timeline-container">
+    <p class="intro-paragraph">What I've done so far</p>
+    <h1 class="timeline-heading">Work Experience</h1>
+    <div class="timeline">
+      <div
+        class="timeline-item"
+        v-for="(item, index) in experiences"
+        :key="index"
+        :class="[ 
+          'timeline-item',
+          { 'align-left': index % 2 === 0, 'align-right': index % 2 !== 0, 'visible': item.visible }
+        ]"
+        ref="timelineItems"
+      >
+        <div class="timeline-content">
+          <div class="timeline-icon">
+            <img :src="item.icon" alt="icon" />
           </div>
+          <h2 class="position">{{ item.position }}</h2>
+          <p class="company">{{ item.company }}</p>
+          <span class="date">{{ item.date }}</span>
         </div>
       </div>
-      <div class="resume-container">
-        <a href="link-to-your-resume.pdf" class="resume-btn" target="_blank">My Resume</a>
-      </div>
     </div>
-  </template>
+    <div class="resume-container">
+      <a href="https://drive.google.com/drive/folders/1vTIEwmnPUK8QCpHOk2UZ4PrR7GTQUv8C?usp=sharing" 
+         class="resume-btn" target="_blank">My Resume</a>
+    </div>
+  </div>
+</template>
+
   
   <script>
   export default {
@@ -36,28 +38,28 @@
       return {
         experiences: [
           {
-            position: "Front-End Developer",
-            company: "Cover Hunt",
-            date: "Aug 2021 - Feb 2022",
-            icon: require('@/assets/lc.png'),
+            position: "Flutter Developer",
+            company: "Megha",
+            date: "Aug 2023 - Oct 2023",
+            icon: require('@/assets/mh.png'),
           },
           {
-            position: "Junior Software Engineer",
-            company: "Kelhel",
-            date: "Mar 2022 - May 2022",
-            icon: require('@/assets/lc.png'),
+            position: "Full Stack Developer",
+            company: "QuickBus",
+            date: "Mar 2024 - July 2024",
+            icon: require('@/assets/qb.png'),
           },
           {
-            position: "Mentor (Volunteer)",
-            company: "Microverse",
-            date: "May 2022 - Oct 2022",
-            icon: require('@/assets/lc.png'),
+            position: "Student Mentor",
+            company: "Sri Eshwar College of Engineering",
+            date: "Jan 2024 - Present",
+            icon: require('@/assets/sec.png'),
           },
           {
-            position: "President AI-ML",
+            position: "President of CSE(AI-ML)",
             company: "Sri Eshwar College of Engineering",
             date: "Aug 2024 - Present",
-            icon: require('@/assets/sece.png'),
+            icon: require('@/assets/sec.png'),
           },
         ],
       };
@@ -135,7 +137,7 @@
     width: 100%;
     opacity: 0; /* Initially hidden */
     transform: translateY(30px); /* Initial translation for fade-in effect */
-    transition: opacity 1.6s ease-out, transform 1.6s ease-in-out; /* Transition for fade-in effect */
+    transition: opacity 1s ease-out, transform 1s ease-in-out; /* Transition for fade-in effect */
   }
   
   /* Make timeline item visible */

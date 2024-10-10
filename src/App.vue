@@ -7,7 +7,7 @@
     <RecognitionsContainer/>
     <MyselfPage/>
     <WorkExperience/>
-    <EducationComponent/>
+  
     <TechnicalStackComponent/>
     <HeadingComponent/>
     <ProjectsComponent/>
@@ -31,7 +31,7 @@ import ProfilesContainer from './components/ProfilesContainer.vue';
 import RecognitionsContainer from './components/RecognitionsContainer.vue';
 import MyselfPage from './components/MyselfPage.vue';
 import WorkExperience from './components/WorkExperience.vue';
-import EducationComponent from './components/EducationComponent.vue';
+
 import TechnicalStackComponent from './components/TechnicalStackComponent.vue';
 import ProjectsComponent from './components/ProjectsComponent.vue';
 import HeadingComponent from './components/HeadingComponent.vue';
@@ -52,7 +52,7 @@ export default {
     RecognitionsContainer,
     MyselfPage,
     WorkExperience,
-    EducationComponent,
+  
     TechnicalStackComponent,
     ProjectsComponent,
     HeadingComponent,
