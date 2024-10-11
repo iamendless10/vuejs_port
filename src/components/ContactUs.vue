@@ -19,20 +19,7 @@
         </div>
         <button type="submit" class="submit-button">Send Message</button>
       </form>
-      <div class="social-icons">
-        <a href="https://github.com/iamendless10" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
-          <img src="@/assets/github.png" alt="Facebook" />
-        </a>
-        <a href="https://www.twitter.com/kayalennian" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
-          <img src="@/assets/twitter.png" alt="Twitter" />
-        </a>
-        <a href="https://www.linkedin.com/in/kayalennian" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
-          <img src="@/assets/linkedin.png" alt="LinkedIn" />
-        </a>
-        <a href="https://www.instagram.com/iam_ennian_" class="icon" target="_blank" @mouseover="animateIcon" @mouseleave="resetIcon">
-          <img src="@/assets/instagram.png" alt="Instagram" />
-        </a>
-      </div>
+      
     </div>
   </template>
   

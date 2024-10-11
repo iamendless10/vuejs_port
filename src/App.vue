@@ -29,6 +29,7 @@
     <AchievementsContainer/>
     <GalleryOfAccomplishments/>
     <ContactUs/>
+    <FooterComponent/>
   
     
   </div>
@@ -54,6 +55,7 @@ import AchievementsHeading from './components/AchievementsHeading.vue';
 import GalleryOfAccomplishments from './components/GalleryOfAccomplishments.vue';
 import ContactUs from './components/ContactUs.vue';
 import LandingPage from './components/LandingPage.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 
 export default {
@@ -75,7 +77,8 @@ export default {
     AchievementsHeading,
     GalleryOfAccomplishments,
     ContactUs,
-    LandingPage
+    LandingPage,
+    FooterComponent
   
   }
 }
