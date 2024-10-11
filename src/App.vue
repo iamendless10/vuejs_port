@@ -2,16 +2,28 @@
   <div>
     <NavBar/>
     <LandingPage/>
+
+
+
+
+
     <SplitPage/>
+    <HeadingComponent/>
+    <ProjectsComponent/>
+    <RecognitionsContainer/>
+
+
+
+
+    <MyselfPage/>
     <CodingPage/>
     <ProfilesContainer/>
-    <RecognitionsContainer/>
-    <MyselfPage/>
+    
+    
     <WorkExperience/>
   
     <TechnicalStackComponent/>
-    <HeadingComponent/>
-    <ProjectsComponent/>
+    
     <CertificationsComponent/>
     <AchievementsHeading/>
     <AchievementsContainer/>

@@ -101,9 +101,9 @@
   
   .collab-text {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem; /* Adjust size as needed */
+    font-size: 1.0rem; /* Adjust size as needed */
     font-weight: 500;
-    color: #4a90e2; /* Change color as needed */
+    color: #333; /* Change color as needed */
     margin-bottom: 10px; /* Space below the collaboration text */
   }
   
