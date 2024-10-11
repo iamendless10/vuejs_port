@@ -11,16 +11,16 @@
         all while architecting dynamic back-end frameworks that drive cutting-edge software innovations.
       </p>
       <div class="social-icons">
-        <a href="https://linkedin.com" target="_blank" class="social-icon">
+        <a href="https://www.linkedin.com/in/kayalennian/" target="_blank" class="social-icon">
           <img src="@/assets/linkedin.png" alt="LinkedIn" />
         </a>
-        <a href="https://github.com" target="_blank" class="social-icon">
+        <a href="https://github.com/iamendless10" target="_blank" class="social-icon">
           <img src="@/assets/github.png" alt="GitHub" />
         </a>
-        <a href="https://x.com" target="_blank" class="social-icon">
+        <a href="https://x.com/kayalennian" target="_blank" class="social-icon">
           <img src="@/assets/twitter.png" alt="X" />
         </a>
-        <a href="https://instagram.com" target="_blank" class="social-icon">
+        <a href="https://instagram.com/iam_ennian_" target="_blank" class="social-icon">
           <img src="@/assets/instagram.png" alt="Instagram" />
         </a>
       </div>
