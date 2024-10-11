@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavBar/>
+    <LandingPage/>
     <SplitPage/>
     <CodingPage/>
     <ProfilesContainer/>
@@ -40,6 +41,7 @@ import AchievementsContainer from './components/AchievementsContainer.vue';
 import AchievementsHeading from './components/AchievementsHeading.vue';
 import GalleryOfAccomplishments from './components/GalleryOfAccomplishments.vue';
 import ContactUs from './components/ContactUs.vue';
+import LandingPage from './components/LandingPage.vue';
 
 
 export default {
@@ -60,7 +62,8 @@ export default {
     AchievementsContainer,
     AchievementsHeading,
     GalleryOfAccomplishments,
-    ContactUs
+    ContactUs,
+    LandingPage
   
   }
 }
