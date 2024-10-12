@@ -4,8 +4,9 @@
 # 💻 Welcome to **[Your Project Name]**! 🎉
 
 <p align="center">
-   ![image](https://github.com/user-attachments/assets/3d1a95b6-a385-4abf-a14f-c8e87c3e472f)
+  <img src="https://github.com/yourusername/yourproject/blob/main/src/assets/image.png" alt="Project Logo" width="150"/>
 </p>
+
 
 <p align="center">
   <b>Transforming ideas into reality with ⚡ speed and 🧠 intelligence!</b>
