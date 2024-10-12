@@ -1,4 +1,3 @@
-Here’s the complete content for your project readme, including the checkbox-style link as requested:
 
 ---
 
@@ -17,6 +16,10 @@ Here’s the complete content for your project readme, including the checkbox-st
 ## 🚀 **About the Project**
 
 Welcome to **Kayal Ennian's Portfolio** – a project showcasing my journey as a developer and innovator. 🌟 This portfolio highlights my expertise in AI, ML, and web development, along with key projects that have helped shape my career. Whether you’re a potential collaborator, recruiter, or tech enthusiast, feel free to explore and connect with me!
+
+<p align="center">
+  <b>Check out my site: <a href="https://kayalennian.vercel.app" target="_blank">✅ kayalennian.vercel.app 🌟🚀</a></b>
+</p>
 
 ### 🛠 **Technologies Used:**
 - **Frontend**: Vue.js, HTML5, CSS3 🎨
@@ -98,10 +101,6 @@ Big thanks to everyone contributing to the project and making it better! 💖 Yo
 
 ---
 
-<p align="center">
-  <b>Check out my site: <a href="https://kayalennian.vercel.app" target="_blank">✅ kayalennian.vercel.app 🌟🚀</a></b>
-</p>
+
 
 ---
-
-This will display your project logo, and the check-out link styled with emojis will redirect users to your portfolio site when clicked!
