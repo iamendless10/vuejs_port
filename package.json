@@ -10,6 +10,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@unhead/vue": "^1.9.16",
+    "aos": "^2.3.4",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
     "embla-carousel-autoplay": "^8.3.0",

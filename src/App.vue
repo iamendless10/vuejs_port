@@ -1,40 +1,53 @@
 <template>
-  <div>
-    <NavBar/>
-    <LandingPage/>
-
-
-
-
-
-    <SplitPage/>
-    <HeadingComponent/>
-    <ProjectsComponent/>
-    <RecognitionsContainer/>
-
-
-
-
-    <MyselfPage/>
-    <CodingPage/>
-    <ProfilesContainer/>
-    
-    
-    <WorkExperience/>
-  
-    <TechnicalStackComponent/>
-    
-    <CertificationsComponent/>
-    <AchievementsHeading/>
-    <AchievementsContainer/>
-    <GalleryOfAccomplishments/>
-    <ContactUs/>
-    <FooterComponent/>
-  
-    
+  <div id="app">
+    <NavBar />
+    <LandingPage />
+    <transition name="fade">
+      <SplitPage />
+    </transition>
+    <transition name="fade">
+      <HeadingComponent />
+    </transition>
+    <transition name="fade">
+      <ProjectsComponent />
+    </transition>
+    <transition name="fade">
+      <RecognitionsContainer />
+    </transition>
+    <transition name="fade">
+      <MyselfPage />
+    </transition>
+    <transition name="fade">
+      <CodingPage />
+    </transition>
+    <transition name="fade">
+      <ProfilesContainer />
+    </transition>
+    <transition name="fade">
+      <WorkExperience />
+    </transition>
+    <transition name="fade">
+      <TechnicalStackComponent />
+    </transition>
+    <transition name="fade">
+      <CertificationsComponent />
+    </transition>
+    <transition name="fade">
+      <AchievementsHeading />
+    </transition>
+    <transition name="fade">
+      <AchievementsContainer />
+    </transition>
+    <transition name="fade">
+      <GalleryOfAccomplishments />
+    </transition>
+    <transition name="fade">
+      <ContactUs />
+    </transition>
+    <transition name="fade">
+      <FooterComponent />
+    </transition>
   </div>
-  
-
 </template>
 
 <script>
@@ -45,7 +58,6 @@ import ProfilesContainer from './components/ProfilesContainer.vue';
 import RecognitionsContainer from './components/RecognitionsContainer.vue';
 import MyselfPage from './components/MyselfPage.vue';
 import WorkExperience from './components/WorkExperience.vue';
-
 import TechnicalStackComponent from './components/TechnicalStackComponent.vue';
 import ProjectsComponent from './components/ProjectsComponent.vue';
 import HeadingComponent from './components/HeadingComponent.vue';
@@ -57,7 +69,6 @@ import ContactUs from './components/ContactUs.vue';
 import LandingPage from './components/LandingPage.vue';
 import FooterComponent from './components/FooterComponent.vue';
 
-
 export default {
   name: 'App',
   components: {
@@ -68,7 +79,6 @@ export default {
     RecognitionsContainer,
     MyselfPage,
     WorkExperience,
-  
     TechnicalStackComponent,
     ProjectsComponent,
     HeadingComponent,
@@ -78,21 +88,27 @@ export default {
     GalleryOfAccomplishments,
     ContactUs,
     LandingPage,
-    FooterComponent
-  
-  }
-}
+    FooterComponent,
+  },
+};
 </script>
 
 <style>
 #app {
- 
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
 
-html{
+html {
   scroll-behavior: smooth;
+}
+
+/* Transition styles */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
 }
 </style>
