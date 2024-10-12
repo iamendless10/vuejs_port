@@ -2,7 +2,8 @@
 # 💻 Welcome to **[Your Project Name]**! 🎉
 
 <p align="center">
-  <img src="D:\Extensa_Files\Projects\Portfolio_kayal\portfolio_kayal\src\assets\image.png" alt="Project Logo" width="150"/>
+  <img src="./src/assets/image.png" alt="Project Logo" width="150"/>
+
 </p>
 
 
