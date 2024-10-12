@@ -4,7 +4,7 @@
 # 💻 Welcome to **[Your Project Name]**! 🎉
 
 <p align="center">
-  <img src="https://github.com/yourusername/yourproject/blob/main/src/assets/image.png" alt="Project Logo" width="150"/>
+  <img src="portfolio_kayal\src\assets\image.png" alt="Project Logo" width="150"/>
 </p>
 
 
