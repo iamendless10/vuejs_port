@@ -1,3 +1,4 @@
+Here’s the complete content for your project readme, including the checkbox-style link as requested:
 
 ---
 
@@ -95,5 +96,12 @@ Big thanks to everyone contributing to the project and making it better! 💖 Yo
   <b>Made with ❤️ by Kayal Ennian A G</b>
 </p>
 
---- 
+---
 
+<p align="center">
+  <b>Check out my site: <a href="https://kayalennian.vercel.app" target="_blank">✅ kayalennian.vercel.app 🌟🚀</a></b>
+</p>
+
+---
+
+This will display your project logo, and the check-out link styled with emojis will redirect users to your portfolio site when clicked!
