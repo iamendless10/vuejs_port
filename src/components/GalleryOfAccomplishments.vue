@@ -46,20 +46,20 @@
           <img src="@/assets/image10.jpg" />
         </div>
         <div class="small-container">
-          <img src="@/assets/image1.jpg" />
+          <img src="@/assets/image11.jpg" />
         </div>
       </div>
 
       <!-- Column 4 -->
       <div class="column">
         <div class="long-container">
-          <img src="@/assets/image2.jpeg" />
+          <img src="@/assets/image12.jpg" />
         </div>
         <div class="small-container">
-          <img src="@/assets/image3.jpg" />
+          <img src="@/assets/image13.jpg" />
         </div>
         <div class="small-container">
-          <img src="@/assets/image4.jpg" />
+          <img src="@/assets/image14.jpg" />
         </div>
       </div>
     </div>
