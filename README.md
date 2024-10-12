@@ -2,7 +2,7 @@
 # 💻 Welcome to **[Your Project Name]**! 🎉
 
 <p align="center">
-  <img src="./src/assets/image.png" alt="Project Logo" width="550"/>
+  <img src="./src/assets/image.png" alt="Project Logo" width="850"/>
 
 </p>
 
