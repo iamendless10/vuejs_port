@@ -50,7 +50,7 @@ export default {
         { src: require('../assets/srm.png'), alt: "Image 5" },
         { src: require('../assets/svce.png'), alt: "Image 6" },
         { src: require('../assets/sece.png'), alt: "Image 7" },
-        { src: require('../assets/gdg.png'), alt: "Image 8" },
+        { src: require('../assets/karpagam.png'), alt: "Image 8" },
         { src: require('../assets/ie.png'), alt: "Image 9" },
         { src: require('../assets/vr.png'), alt: "Image 10" },
         { src: require('../assets/startup.png'), alt: "Image 11" },
