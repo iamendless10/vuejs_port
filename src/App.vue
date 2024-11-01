@@ -53,8 +53,8 @@
 <script>
 import NavBar from './components/NavBar.vue';
 import SplitPage from './components/SplitPage.vue';
-import CodingPage from './components/CodingPage.vue';
-import ProfilesContainer from './components/ProfilesContainer.vue';
+// import CodingPage from './components/CodingPage.vue';
+// import ProfilesContainer from './components/ProfilesContainer.vue';
 import RecognitionsContainer from './components/RecognitionsContainer.vue';
 import MyselfPage from './components/MyselfPage.vue';
 import WorkExperience from './components/WorkExperience.vue';
@@ -74,8 +74,8 @@ export default {
   components: {
     NavBar,
     SplitPage,
-    CodingPage,
-    ProfilesContainer,
+    // CodingPage,
+    // ProfilesContainer,
     RecognitionsContainer,
     MyselfPage,
     WorkExperience,
