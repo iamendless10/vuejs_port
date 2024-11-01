@@ -17,12 +17,12 @@
     <transition name="fade">
       <MyselfPage />
     </transition>
-    <transition name="fade">
+    <!-- <transition name="fade">
       <CodingPage />
-    </transition>
-    <transition name="fade">
+    </transition> -->
+    <!-- <transition name="fade">
       <ProfilesContainer />
-    </transition>
+    </transition> -->
     <transition name="fade">
       <WorkExperience />
     </transition>
